@@ -41,3 +41,4 @@ luac.out
 
 Framework
 .luarc.json
+.vscode/settings.json
