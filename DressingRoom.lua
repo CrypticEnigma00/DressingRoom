@@ -501,7 +501,7 @@ function DressingRoom:OnZoneChanged()
   end
 end
 
-
+-- Register for movement event and hide dressing room ui window when movement event happens
 function DressingRoom:SetUpAutoCloseOnMovement(enabled)
   if enabled then
     EVENT_MANAGER:RegisterForEvent("DressingRoom_PlayerMove", EVENT_NEW_MOVEMENT_IN_UI_MODE,
